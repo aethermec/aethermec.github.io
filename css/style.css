@@ -1,0 +1,649 @@
+/* ---- reset ---- */
+
+body {
+  /* margin: 0; */
+  /*font-family: 'Lemonada', cursive; https://fonts.google.com/specimen/Baumans*/
+  font-family: 'Baumans', cursive;
+  /* padding: 0 !important; */
+  background-color: #0e121e;
+}
+
+.headingEvents {
+  font-size: 45pt;
+  color: white;
+}
+
+.description {
+  color: white;
+  font-size: 18pt;
+  padding: 10pt;
+  text-align: center;
+}
+
+.img-desc {
+  padding: 10pt;
+  text-align: center;
+}
+
+.photo {
+  height: 450pt;
+  width: 1000pt;
+}
+
+/* About Section */
+
+.aboutHeading {
+  font-family: 'Space Mono', monospace;
+  color: white;
+  text-align: center;
+  margin: 10pt;
+  padding: 20pt;
+  font-size: 40pt;
+}
+
+.aboutphoto {
+  width: 75%;
+  padding: 10pt;
+  text-align: center;
+}
+
+.aboutp {
+  font-family: 'Space Mono', monospace;
+  color: white;
+  font-size: 18pt;
+  padding: 10pt;
+}
+
+ul {
+  list-style: none;
+  color: #0e121e;
+}
+
+/**********PLAYER SELECT**********/
+
+.showcase {
+  /*font-family: 'Montserrat', sans-serif;*/
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.showcase .player {
+  width: 320px;
+  height: 420px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.showcase .player .player-photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.showcase .player .player-photo img {
+  width: 319px;
+  height: 337px;
+  filter: grayscale(100%);
+  transition: .3s;
+}
+
+.showcase .player .player-photo .socials {
+  width: 100%;
+  height: 50px;
+  background-color: #e42422;
+  position: absolute;
+  bottom: -46px;
+  transition: .3s;
+}
+
+.showcase .player .player-photo .socials ul {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.showcase .player .player-photo .socials ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.showcase .player .player-photo .socials ul li a .fa {
+  color: #950016;
+  font-size: 18px;
+}
+
+.showcase .player .player-name {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.showcase .player .player-name h3 {
+  color: #e42422;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.showcase .player .player-name h5 {
+  color: #999999;
+  font-size: 15px;
+  margin: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .showcase {
+    padding: 0;
+  }
+}
+
+/**********END PLAYER SELECT**********/
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+/*footer*/
+
+.col_white_amrc {
+  color: #FFF;
+}
+
+footer {
+  width: 100%;
+  background-color: #263238;
+  min-height: 250px;
+  padding: 10px 0px 25px 0px;
+}
+
+.pt2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #CCC;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.mb10 {
+  padding-bottom: 15px;
+}
+
+.footer_ul_amrc {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_amrc li {
+  padding: 0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a {
+  color: #CCC;
+}
+
+.footer_ul_amrc li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fleft {
+  float: left;
+}
+
+.padding-right {
+  padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer_ul2_amrc li p {
+  display: table;
+}
+
+.footer_ul2_amrc li a:hover {
+  text-decoration: none;
+}
+
+.footer_ul2_amrc li i {
+  margin-top: 5px;
+}
+
+.bottom_border {
+  border-bottom: 1px solid #323f45;
+  padding-bottom: 20px;
+}
+
+.foote_bottom_ul_amrc {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+  display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+  color: #999;
+  margin: 0 12px;
+}
+
+.social_footer_ul {
+  display: table;
+  margin: 15px auto 0 auto;
+  list-style-type: none;
+}
+
+.social_footer_ul li {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+
+.social_footer_ul li a {
+  color: #CCC;
+  border: 1px solid #CCC;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.social_footer_ul li i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+/* Events Page */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+figure {
+  margin: 0;
+}
+
+.tile {
+  width: 250px;
+  height: 350px;
+  margin: 2em;
+  position: relative;
+  float: left;
+}
+.tile .front, .tile .back {
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+.tile h3, .tile p, .tile a {
+  padding: 0 20px;
+}
+.tile img {
+  max-height: 130px;
+}
+.tile .front {
+  background: #fff;
+  transition: all .5s ease-in-out;
+  z-index: 2;
+}
+.tile .front h3 {
+  font-size: 2em;
+  color: white;
+  text-shadow: 0 0 5px #000;
+  margin-top: -1.5em;
+  margin-bottom: 1.5em;
+}
+.tile .back {
+  background: #e6b800;
+  color: white;
+  z-index: 1;
+  padding-top: 50px;
+  height: 300px;
+}
+.tile .back h3 {
+  font-size: 1.5em;
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.tile .back li {
+  display: block;
+  font-size: 1.2em;
+  color: white;
+  border-top: 1px solid #ffcc00;
+  margin: 0 20px;
+  padding: .5em 0;
+}
+.tile:hover .front {
+  top: -300px;
+  transform: rotate(5deg);
+}
+
+
+/* Carousal in the home screen */
+
+.wrapper{
+  width:90%;
+  position:relative;
+  margin:5% auto 0;
+}
+
+/**
+ * Padding is set relative to the width
+ * of the element, so here padding-top:60% is
+ * a percentage of the width. This allows us
+ * to set the height as a ratio of the width
+ *
+ */
+.carousel{
+	width: 100%;
+	position: relative;
+	padding-top: 60%;
+	overflow: hidden;
+}
+
+.inner{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+/**
+ * ==========================
+ * Animation styles
+ *
+ * Notes:
+ * 1. We use z-index to position active slides in-front
+ * of non-active slides
+ * 2. We set right:0 and left:0 on .slide to provide us with
+ * a default positioning on both sides of the slide. This allows
+ * us to trigger JS and CSS3 animations easily
+ *
+ */
+.slide{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	z-index: 1;
+	opacity: 0;
+}
+
+.slide.active,
+.slide.left,
+.slide.right{
+	z-index: 2;
+	opacity: 1;
+}
+
+/**
+ * ==========================
+ * JS animation styles
+ *
+ * We use jQuery.animate to control the sliding animations
+ * when CSS3 animations are not available. In order for
+ * the next slide to slide in from the right, we need
+ * to change the left:0 property of the slide to left:auto
+ *
+ */
+
+.js-reset-left{left:auto}
+
+/**
+ * ==========================
+ * CSS animation styles
+ *
+ * .slide.left and .slide.right set-up
+ * the to-be-animated slide so that it can slide
+ * into view. For example, a slide that is about
+ * to slide in from the right will:
+ * 1. Be positioned to the right of the viewport (right:-100%)
+ * 2. Slide in when the style is superseded with a more specific style (right:0%)
+ *
+ */
+.slide.left{
+	left:-100%;
+	right:0;
+}
+
+.slide.right{
+	right:-100%;
+	left: auto;
+}
+
+.transition .slide.left{left:0%}
+.transition .slide.right{right:0%}
+
+/**
+ * The following classes slide the previously active
+ * slide out of view before positioning behind the
+ * currently active slide
+ *
+ */
+.transition .slide.shift-right{right: 100%;left:auto}
+.transition .slide.shift-left{left: 100%;right:auto}
+
+/**
+ * This sets the CSS properties that will animate. We set the
+ * transition-duration property dynamically via JS.
+ * We use the browser's default transition-timing-function
+ * for simplicity's sake
+ *
+ * It is important to note that we are using CodePen's inbuilt
+ * CSS3 property prefixer. For your own projects, you will need
+ * to prefix the transition and transform properties here to ensure
+ * reliable support across browsers
+ *
+ */
+.transition .slide{
+	transition-property: right, left, margin;
+}
+
+/**
+ * ==========================
+ * Indicators
+ *
+ */
+.indicators{
+  width:100%;
+  position: absolute;
+  bottom:0;
+  z-index: 4;
+  padding:0;
+  text-align: center;
+}
+
+.indicators li{
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	margin: 5px;
+	background: #fff;
+	list-style-type: none;
+	border-radius: 50%;
+  cursor:pointer;
+  transition:background 0.3s ease-out;
+}
+
+.indicators li.active{background:#93278f}
+
+.indicators li:hover{background-color:#2b2b2b}
+
+/**
+ * ==========================
+ * Arrows
+ *
+ */
+.arrow{
+  width: 20px;
+  height: 20px;
+  position:absolute;
+  top:50%;
+  z-index:5;
+  border-top:3px solid #fff;
+  border-right:3px solid #fff;
+  cursor:pointer;
+  transition:border-color 0.3s ease-out;
+}
+
+.arrow:hover{border-color:#93278f}
+
+.arrow-left{
+  left:20px;
+  transform:rotate(225deg);
+}
+
+.arrow-right{
+  right:20px;
+  transform:rotate(45deg);
+}
+
+/**
+ * ==========================
+ * For demo purposes only
+ *
+ * Please note that the styles below are used
+ * for the purposes of this demo only. There is no need
+ * to use these in any of your own projects
+ *
+ */
+.slide{
+	text-align:center;
+  padding-top:25%;
+  background-size:cover;
+  opacity: 0.5;
+}
+
+
+
+.slide:nth-child(1){
+  background-image:url('../img/img1.JPG');
+
+ }
+
+.slide:nth-child(2){
+	background-image:url('../img/img2.JPG');
+}
+
+.slide:nth-child(3){
+	background-image:url('../img/img3.JPG');
+ }
+
+
+ #timer{
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+}
+
+span {
+  /*font-family: 'Space Mono', monospace;*/
+  display: block;
+  /* font-size: 20px; */
+  color: white;
+}
+.timerinside {
+  /*font-family: 'Space Mono', monospace;*/
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+
+#days {
+  font-size: 100px;
+  color: #db4844;
+}
+#hours {
+  font-size: 100px;
+  color: #f07c22;
+}
+#minutes {
+  font-size: 100px;
+  color: #f6da74;
+}
+#seconds {
+  font-size: 50px;
+  color: #abcd58;
+}
+
+.navbar-default{
+  background-color: transparent;
+  border-color: #444;
+  z-index: 110;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a{
+  color: #B5B5B5 !important;
+  /*font-family: 'Raleway';*/
+  transition: all 1s;
+  font-size: 2em;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+}
+.navbar-brand img{
+  height: 100%;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: #129CF3 !important;
+
+}
+.navbar-default .navbar-nav > li > a:focus{
+  color: #b5b5b5;
+}
+navbar-default .navbar-nav > .active >a,
+navbar-default .navbar-nav > .active >a:hover,
+navbar-default .navbar-nav > .active >a:focus{
+  background-color: transparent;
+  color: #129cf3;
+}
+
+.nav-item{
+  font-family: "Space Mono";
+}
+
+.overlay {
+  position: absolute;
+  padding-left: 40%;
+  padding-top: 20%;
+}

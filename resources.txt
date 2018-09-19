@@ -1,0 +1,16 @@
+Bootstrap 4 : https://getbootstrap.com/docs/4.1/getting-started/introduction/
+Animate.css : https://daneden.github.io/animate.css/
+Carousel    : https://getbootstrap.com/docs/4.0/components/carousel/
+Cards(Events: https://getbootstrap.com/docs/4.0/components/card/ 
+Maps(Code)  : <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.71952198093!2d78.43332441506811!3d17.568535487970212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8f06a86f0315%3A0x2f80d6e75d32cc14!2sMahindra+%C3%89cole+Centrale!5e0!3m2!1sen!2sin!4v1534484859345" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+Team        : 1) https://www.w3schools.com/howto/howto_css_team.asp
+              2) https://codepen.io/marlenesco/pen/NqOozj (Preferred)
+ScrollReveal: https://scrollrevealjs.org/
+WOW.js      : http://mynameismatthieu.com/WOW/
+ScrollMagic : http://scrollmagic.io/
+BackGround  : https://codepen.io/anon/pen/OwKPzV
+CrossFade   : http://mikefowler.me/crossfade.js/
+TitledScroll: https://github.com/peachananr/tiltedpage_scroll
+CountDown   : https://codepen.io/anon/pen/gjVpbM
+Typing      : https://codepen.io/3TH3R3AL/pen/xzRPZq?page=1&
+
