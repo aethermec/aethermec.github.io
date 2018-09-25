@@ -644,6 +644,13 @@ navbar-default .navbar-nav > .active >a:focus{
 
 .overlay {
   position: absolute;
-  padding-left: 40%;
+  padding-left: 30%;
   padding-top: 20%;
+}
+
+.heading {
+  color: #eee;
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
 }
