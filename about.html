@@ -8,7 +8,7 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
@@ -90,7 +90,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="tlt aboutHeading" data-aos="fade-up" data-aos-duration="3000" data-in-effect="rollIn">About US</h1>       
+          <h1 class="tlt aboutHeading" data-aos="fade-up" data-aos-duration="3000" data-in-effect="rollIn">About US</h1>
         </div>
       </div>
     </div>
@@ -117,15 +117,16 @@
       </div>
     <div class="row">
       <div class="col-md-6" data-aos-duration="3000" data-aos="zoom-in-up">
-        <p class="aboutp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae maiores id facilis. Dicta illum provident excepturi
-          et asperiores velit nemo ullam, officiis est magni sint. Eius excepturi ut magni ipsa?</p>
+        <p class="aboutp">Aether is popularly believed to be the substance that permeates everything between spaces, a singularity which predates the universe and reality. Why Aether?
+<br/><br/>To hear one demands silence. We build houses but it's the space inside that makes it livable. We shape clay to pots but it's the emptiness inside that holds.<br/><br/>
+Aether, that which fills everything is the spirit of the annual techno-cultural fest of Mahindra École Central. Let us together embark on a journey towards discovering Aether, the space between transcendence and euphoria!</p>
       </div>
       <div class="col-md-6" data-aos="zoom-in-left" data-aos-duration="3000">
         <img class="aboutphoto" src="img/Aether.png" alt="Mec-Logo">
       </div>
     </div>
   </div>
-
+<!--
   <div class="container" data-aos="zoom-in-up">
       <div class="row">
           <div class="col-md-12">
@@ -241,7 +242,7 @@
         </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
-  </div>
+  </div>-->
 
   <footer class="footer" data-aos="fade-up" data-aos-duration="2000">
       <div class="container bottom_border">
@@ -252,15 +253,15 @@
         <div class=" col-md-4">
             <h5 class="headin5_amrc col_white_amrc pt2">Meet us at</h5>
             <!--headin5_amrc ends here-->
-            
+
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.719414484257!2d78.43332441503911!3d17.568540602178928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8f06a86f0315%3A0x2f80d6e75d32cc14!2sMahindra+%C3%89cole+Centrale!5e0!3m2!1sen!2sin!4v1534600705252" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             <!--footer_ul2_amrc ends here-->
             </div>
       </div>
 
       </div>
-      
-      
+
+
       <div class="container">
       <ul class="foote_bottom_ul_amrc">
       <li><a href="#">Home</a></li>
@@ -269,7 +270,7 @@
       </ul>
       <!--foote_bottom_ul_amrc ends here-->
       <p class="text-center">Copyright Aether@2018 | Designed With <i class="fa fa-heart-o" style="color:red"></i> by Enigma</p>
-      
+
       <ul class="social_footer_ul">
       <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
       <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -278,12 +279,12 @@
       </ul>
       <!--social_footer_ul ends here-->
       </div>
-      
+
       </footer>
-      
 
 
-  
+
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script
@@ -299,19 +300,19 @@
   <script src="js/custom.js"></script>
   <script>
           (function($) {
-  
+
         var $player = $('.player');
-        
+
         $player.mouseover(function() {
           $(this).find('img').css('filter' , 'grayscale(0%)');
           $(this).find('.socials').css('bottom' , '0');
         });
-        
+
         $player.mouseout(function() {
           $(this).find('img').css('filter' , 'grayscale(100%)');
           $(this).find('.socials').css('bottom' , '-46px');
         });
-        
+
       })(jQuery);
       function autoType(elementClass, typingSpeed){
         var thhis = $(elementClass);
@@ -331,7 +332,7 @@
           thhis.text("");
           for(var i = 0; i < amntOfChars; i++){
             (function(i,char){
-              setTimeout(function() {        
+              setTimeout(function() {
                 newString += char;
                 thhis.text(newString);
               },i*typingSpeed);
@@ -339,11 +340,11 @@
           }
         },1500);
       }
-      
+
       $(document).ready(function(){
-        // Now to start autoTyping just call the autoType function with the 
+        // Now to start autoTyping just call the autoType function with the
         // class of outer div
-        // The second paramter is the speed between each letter is typed.   
+        // The second paramter is the speed between each letter is typed.
         autoType(".type-js",200);
 
         $(window).scroll(function () {
@@ -355,9 +356,9 @@
               });
               $('.navbar-default').css({
                   'background-color': 'rgba(59, 59 , 59, 0)'
-  
+
               });
-  
+
           } else {
               $('.navbar').css({
                   'margin-top': '0px',
@@ -373,12 +374,12 @@
               });
               $('.navbar-nav > li > a').css({
                   'padding-top': '15px'
-  
+
               });
-  
-  
+
+
           }
-  
+
       });
       });
   </script>
