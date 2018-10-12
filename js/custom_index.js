@@ -177,13 +177,7 @@ const resolver = {
    * Source: http://theportalwiki.com/wiki/GLaDOS_voice_lines#Chapter_9:_The_Part_Where_He_Kills_You
    */
   const strings = [
-    'Aether is Coming',
-    'Feel the excitement once again',
-    'We are here !!',
-    'Bigger than before!!',
-    'Better than before!!',
-    'Come join us for all the fun!',
-    '____Aether 2k18____'
+    'Aether',
   ];
   
   let counter = 0;
