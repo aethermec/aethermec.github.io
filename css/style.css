@@ -32,7 +32,7 @@ body {
 /* About Section */
 
 .aboutHeading {
-  font-family: 'Space Mono', monospace;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   text-align: center;
   margin: 10pt;
@@ -303,9 +303,9 @@ span {
 }
 .navbar-default .navbar-nav > li > a{
   color: #B5B5B5 !important;
-  /*font-family: 'Raleway';*/
+  font-family: 'Raleway';
   transition: all 1s;
-  font-size: 2em;
+  font-size: 14pt;
   -webkit-transition: all 1s;
   -o-transition: all 1s;
   -moz-transition: all 1s;
@@ -419,4 +419,8 @@ navbar-default .navbar-nav > .active >a:focus{
 .timeline{
   color: white !important;
   font-size: 18pt;
+}
+
+.tile img {
+  max-height: -webkit-fill-available;
 }
