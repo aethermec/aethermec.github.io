@@ -32,7 +32,7 @@ body {
 /* About Section */
 
 .aboutHeading {
-  font-family: 'Space Mono', monospace;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   text-align: center;
   margin: 10pt;
@@ -303,9 +303,9 @@ span {
 }
 .navbar-default .navbar-nav > li > a{
   color: #B5B5B5 !important;
-  /*font-family: 'Raleway';*/
+  font-family: 'Raleway';
   transition: all 1s;
-  font-size: 2em;
+  font-size: 14pt;
   -webkit-transition: all 1s;
   -o-transition: all 1s;
   -moz-transition: all 1s;
@@ -360,4 +360,67 @@ navbar-default .navbar-nav > .active >a:focus{
   margin: auto;
   min-height: 85%;
   border-radius: 5pt;
+}
+
+
+
+#box {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  height: 200px;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+}
+.gradient-border {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+*body{
+  font-family: 'Raleway', sans-serif !important;
+}
+
+
+.timeline{
+  color: white !important;
+  font-size: 18pt;
+}
+
+.tile img {
+  max-height: -webkit-fill-available;
 }
