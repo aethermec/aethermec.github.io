@@ -1,2 +1,2 @@
-# Aether MEC 2K18
-Official Source Code of <a href="https://aethermec.com/">aethermec.com</a>
+# aether-website-2019
+Mahindra École Centrale's Annual College Fest website.
