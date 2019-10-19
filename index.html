@@ -196,27 +196,32 @@
 			<!-- Start Video content -->
 			<div class="mu-video-content">
 				<div class="mu-video-iframe-area">
-					<a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-					<h2 class="mu-title">Aether Promo 2018</h2>
+					<a class="mu-video-close-btn" onClick="stop();" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+					<h2 class="mu-title">Aether Promo 2019</h2>
 					<p>
 						<br>
 					</p>
-                   <iframe width="854" height="480" src="https://www.youtube.com/embed/1Vv6Ac4EArE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>	
+                   <iframe id="promo1" width="854" height="480" src="https://youtube.com/embed/C0b51muEGRs" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>	
 				   <h2 class="mu-title" style="margin-top: 10%;">Aether 2018 Car Rally Promo</h2>
 					<p>
 						<br>
 					</p>
-				   <iframe width="854" height="480" src="https://www.youtube.com/embed/OFXhmb24XZw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>	
-				   <h2 class="mu-title" style="margin-top: 10%;">Aether 2018 Zaedan Promo</h2>
+				   <iframe id="promo2" width="854" height="480" src="https://www.youtube.com/embed/OFXhmb24XZw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>	
+				   <h2 class="mu-title" style="margin-top: 10%;">Aether Promo 2018</h2>
 					<p>
 						<br>
 					</p>
-				   <iframe width="854" height="480" src="https://www.youtube.com/embed/o34KWauvUsc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>	
-					<h2 class="mu-title" style="margin-top: 10%;">Aether 2018 Threeory Promo</h2>
-					<p>
-						<br>
-					</p>
-					<iframe width="854" height="480" src="https://www.youtube.com/embed/9pJuoPSTSSM" frameborder="0" gesture="media"	allow="encrypted-media" allowfullscreen></iframe>
+				   <iframe id="promo3" width="854" height="480" src="https://www.youtube.com/embed/1Vv6Ac4EArE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>	
+				   <script language="javascript" type="text/javascript">
+						function stop(){
+							var iframe1 = document.getElementById('promo1');
+							iframe1.src = iframe1.src;
+							var iframe2 = document.getElementById('promo2');
+							iframe2.src = iframe2.src;
+							var iframe3 = document.getElementById('promo3');
+							iframe3.src = iframe3.src;
+						}
+				   </script>
                 </div>
 			</div>
 			<!-- End Video content -->
@@ -753,22 +758,113 @@ $('#contact-submit').on('click', function(e){
 -->
 <script>
 	function ragaRules(){
-	var x = document.getElementById("ragaRules");
-	if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
+		var x = document.getElementById("ragaRules");
+		if (x.style.display === "none") {
+	        x.style.display = "block";
+	    } else {
+	        x.style.display = "none";
+	    }
+	}
 
-function droppingRules(){
-	var y = document.getElementById("droppingRules");
-	if (y.style.display === "none") {
-        y.style.display = "block";
-    } else {
-        y.style.display = "none";
-    }
-}
+	function droppingRules(){
+		var y = document.getElementById("droppingRules");
+		if (y.style.display === "none") {
+	        y.style.display = "block";
+	    } else {
+	        y.style.display = "none";
+	    }
+	}
+
+	function bwRules(){
+		var z = document.getElementById("bwRules");
+		if (z.style.display === "none") {
+	        z.style.display = "block";
+	    } else {
+	        z.style.display = "none";
+	    }
+	}
+
+	function ccRules(){
+		var a = document.getElementById("ccRules");
+		if (a.style.display === "none") {
+	        a.style.display = "block";
+	    } else {
+	        a.style.display = "none";
+	    }
+	}
+
+	function guessRules(){
+		var b = document.getElementById("guessRules");
+		if (b.style.display === "none") {
+	        b.style.display = "block";
+	    } else {
+	        b.style.display = "none";
+	    }
+	}
+
+	function msRules(){
+		var c = document.getElementById("msRules");
+		if (c.style.display === "none") {
+	        c.style.display = "block";
+	    } else {
+	        c.style.display = "none";
+	    }
+	}
+
+	function mtwRules(){
+            var d = document.getElementById("mtwRules");
+            if (d.style.display === "none") {
+                d.style.display = "block";
+            } else {
+                d.style.display = "none";
+            }
+        }
+
+    function newRules(){
+            var e = document.getElementById("newRules");
+            if (e.style.display === "none") {
+                e.style.display = "block";
+            } else {
+                e.style.display = "none";
+            }
+        }
+
+    function pRules(){
+            var f = document.getElementById("pRules");
+            if (f.style.display === "none") {
+                f.style.display = "block";
+            } else {
+                f.style.display = "none";
+            }
+        }
+
+    function qRules(){
+            var g = document.getElementById("qRules");
+            if (g.style.display === "none") {
+                g.style.display = "block";
+            } else {
+                f.style.display = "none";
+            }
+        }
+
+    function uRules(){
+            var h = document.getElementById("uRules");
+            if (h.style.display === "none") {
+                h.style.display = "block";
+            } else {
+                h.style.display = "none";
+            }
+        }
+
+    function wRules(){
+            var i = document.getElementById("wRules");
+            if (i.style.display === "none") {
+                i.style.display = "block";
+            } else {
+                i.style.display = "none";
+            }
+        }
+
 </script>
 
 	
